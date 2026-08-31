@@ -1,6 +1,4 @@
 # ---- Secrets: NEVER commit these ----
-.env
-.env.local
 *.env
 !.env.example
 
@@ -39,7 +37,6 @@ cache/*.json
 !cache/.gitkeep
 
 # ---- Editors / IDEs ----
-.vscode/
 .idea/
 *.swp
 *.swo
@@ -51,3 +48,5 @@ Desktop.ini
 $RECYCLE.BIN/
 .DS_Store
 .AppleDouble
+config.bat
+node_modules
