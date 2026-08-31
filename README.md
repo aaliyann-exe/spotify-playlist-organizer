@@ -149,10 +149,13 @@ Notepad opens. Replace the placeholder text so it looks like this (using your
 own values):
 
 ```
-SPOTIPY_CLIENT_ID=1a2b3c4d5e6f7g8h9i0j
-SPOTIPY_CLIENT_SECRET=0j9i8h7g6f5e4d3c2b1a
+SPOTIPY_CLIENT_ID=PASTE_YOUR_CLIENT_ID_HERE
+SPOTIPY_CLIENT_SECRET=PASTE_YOUR_CLIENT_SECRET_HERE
 SPOTIPY_REDIRECT_URI=http://127.0.0.1:8888/callback
 ```
+
+(Your real values will be long strings of letters and numbers. Replace the
+capitalised placeholders entirely - do not leave the word `PASTE` in.)
 
 Save (`Ctrl+S`) and close Notepad.
 
