@@ -1,0 +1,14 @@
+# Talks to the Spotify Web API and handles the OAuth login for us.
+spotipy==2.24.0
+
+# Reads your Client ID / Client Secret out of the .env file.
+python-dotenv==1.0.1
+
+# Used to look up an artist's country on MusicBrainz (free, no signup).
+requests==2.32.3
+
+# Guesses the language of a piece of text. One of several signals we use.
+langdetect==1.0.9
+
+# Only needed if you run the tests. Harmless otherwise.
+pytest==8.3.3
