@@ -23,6 +23,8 @@ this.
 
 from __future__ import annotations
 
+import utils.transport
+import utils.session
 import argparse
 import sys
 import textwrap
